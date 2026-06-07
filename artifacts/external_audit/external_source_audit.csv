@@ -1,0 +1,10 @@
+source_dataset,tier,train_allowed_by_default,requires_overlap_audit,license_evidence_detected,data_files,csv_files,parsed_files,parsed_rows,trainable_rows,aicup_schema_overlap,parse_errors
+AIMY,clean,True,False,False,0,0,0,0,0,False,
+CoachAI-Projects-main,clean,True,False,True,361,361,361,546339,0,False,
+DeepMindrobottabletennis,clean,True,False,True,2,0,2,15792,0,False,
+openttgames,clean,True,False,True,31,6,31,5760,0,False,
+sonytabletennis,audit_only,False,True,False,1,1,1,4024,0,False,
+spindoe,clean,True,False,True,0,0,0,0,0,False,
+TT-MatchDynamics,clean_candidate,True,True,True,1,1,1,1500,1500,False,
+TT3D,clean,True,False,False,973,973,973,26617,0,False,
+TTMATCH,high_risk_quarantine,False,True,False,3,3,3,86108,0,True,

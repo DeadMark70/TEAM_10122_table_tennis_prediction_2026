@@ -1,0 +1,246 @@
+{
+  "anchor": "v338_joint_moe_pack/submission_v338_point_only_point_moe_no_p0_add_b24__v173action_v300server.csv",
+  "bank_report": {
+    "sources": [
+      {
+        "path": "v343_row_candidate_bank/candidate_bank.csv",
+        "rows": 2259
+      },
+      {
+        "path": "v345_nonpoint0_utility_optimizer/scored_candidates.csv",
+        "rows": 97
+      }
+    ],
+    "supported_row_candidates": 228
+  },
+  "candidate_summary": "v362_point_hierarchical_specialists/candidate_summary.csv",
+  "decision": "HAS_EXPORT",
+  "depth_backoff_report": {
+    "available": true,
+    "policy": "train_next-row depth/side backoff by actionId, lag0 point depth, phase bin",
+    "table_rows": 199,
+    "test_path": "test_new.csv",
+    "train_path": "train.csv"
+  },
+  "generated_submission_count": 5,
+  "generated_submissions": [
+    {
+      "candidate": "v362_depth_agree_only",
+      "path": "v362_point_hierarchical_specialists/submission_v362_depth_agree_only__v173action_v300server.csv",
+      "point_churn_vs_v338": 12
+    },
+    {
+      "candidate": "v362_nonterminal_highconf_b12",
+      "path": "v362_point_hierarchical_specialists/submission_v362_nonterminal_highconf_b12__v173action_v300server.csv",
+      "point_churn_vs_v338": 12
+    },
+    {
+      "candidate": "v362_nonterminal_highconf_b24",
+      "path": "v362_point_hierarchical_specialists/submission_v362_nonterminal_highconf_b24__v173action_v300server.csv",
+      "point_churn_vs_v338": 24
+    },
+    {
+      "candidate": "v362_rare_point_repair",
+      "path": "v362_point_hierarchical_specialists/submission_v362_rare_point_repair__v173action_v300server.csv",
+      "point_churn_vs_v338": 18
+    },
+    {
+      "candidate": "v362_research_depth_side",
+      "path": "v362_point_hierarchical_specialists/submission_v362_research_depth_side__v173action_v300server.csv",
+      "point_churn_vs_v338": 48
+    }
+  ],
+  "policy": {
+    "manual_row_edits": false,
+    "no_nonterminal_to_point0_exports": true,
+    "no_old_server_labels": true,
+    "no_ttmatch_inputs": true,
+    "output_dir": "v362_point_hierarchical_specialists",
+    "preserve_v300_server": true,
+    "preserve_v338_action": true
+  },
+  "recommended_candidate": {
+    "action_preserved": true,
+    "agreement_count_mean": 31.25,
+    "agreement_count_min": 29,
+    "candidate": "v362_nonterminal_highconf_b12",
+    "path": "v362_point_hierarchical_specialists/submission_v362_nonterminal_highconf_b12__v173action_v300server.csv",
+    "point0_additions": 0,
+    "point0_removals": 0,
+    "point_churn_vs_v338": 12,
+    "risk_level": "normal",
+    "score_sum": 404.6999999999999,
+    "selected_path": "v362_point_hierarchical_specialists/selected_v362_nonterminal_highconf_b12.csv",
+    "selected_rows": 12,
+    "server_preserved": true,
+    "transition_counts": "{\"2->5\": 2, \"7->8\": 3, \"8->6\": 1, \"8->9\": 1, \"9->6\": 2, \"9->8\": 3}"
+  },
+  "scored_candidates": "v362_point_hierarchical_specialists/scored_candidates.csv",
+  "source_report": {
+    "scanned": [
+      {
+        "changed_vs_v338": 28,
+        "path": "v306_point0_addition_probe/submission_v306_p0_budget14__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 24,
+        "path": "v306_point0_addition_probe/submission_v306_p0_budget18__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 38,
+        "path": "v306_point0_addition_probe/submission_v306_p0_budget4__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 33,
+        "path": "v306_point0_addition_probe/submission_v306_p0_budget9__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 38,
+        "path": "v306_point0_addition_probe/submission_v306_p0_cap0p0025__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 33,
+        "path": "v306_point0_addition_probe/submission_v306_p0_cap0p005__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 29,
+        "path": "v306_point0_addition_probe/submission_v306_p0_cap0p0075__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 24,
+        "path": "v306_point0_addition_probe/submission_v306_p0_cap0p01__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 30,
+        "path": "v307_point0_dose_extension/submission_v307_p0_budget12__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 28,
+        "path": "v307_point0_dose_extension/submission_v307_p0_budget14__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 26,
+        "path": "v307_point0_dose_extension/submission_v307_p0_budget16__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 24,
+        "path": "v307_point0_dose_extension/submission_v307_p0_budget18__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 26,
+        "path": "v307_point0_dose_extension/submission_v307_p0_budget20__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 28,
+        "path": "v307_point0_dose_extension/submission_v307_p0_budget22__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 30,
+        "path": "v307_point0_dose_extension/submission_v307_p0_budget24__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 33,
+        "path": "v307_point0_dose_extension/submission_v307_p0_budget27__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 36,
+        "path": "v307_point0_dose_extension/submission_v307_p0_budget30__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 42,
+        "path": "v307_point0_dose_extension/submission_v307_p0_budget36__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 36,
+        "path": "v307_point0_dose_extension/submission_v307_p0_budget6__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 33,
+        "path": "v307_point0_dose_extension/submission_v307_p0_budget9__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 31,
+        "path": "v307_point0_dose_extension/submission_v307_p0_cap0p006__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 28,
+        "path": "v307_point0_dose_extension/submission_v307_p0_cap0p008__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 28,
+        "path": "v307_point0_dose_extension/submission_v307_p0_cap0p012__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 33,
+        "path": "v307_point0_dose_extension/submission_v307_p0_cap0p015__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 24,
+        "path": "v307_point0_dose_extension/submission_v307_p0_cap0p01__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 42,
+        "path": "v307_point0_dose_extension/submission_v307_p0_cap0p02__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 6,
+        "path": "v341_no_p0_point_pack/submission_v341_v339_no_p0_point_moe_expand_v339_no_p0_hier_b30__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 12,
+        "path": "v341_no_p0_point_pack/submission_v341_v339_no_p0_point_moe_expand_v339_no_p0_hier_b36__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 24,
+        "path": "v341_no_p0_point_pack/submission_v341_v339_no_p0_point_moe_expand_v339_no_p0_hier_b48__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 12,
+        "path": "v341_no_p0_point_pack/submission_v341_v339_no_p0_point_moe_expand_v339_no_p0_margin_hi_b36__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 24,
+        "path": "v341_no_p0_point_pack/submission_v341_v340_no_p0_point_agreement_ensemble_v340_agree2_b12__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 24,
+        "path": "v341_no_p0_point_pack/submission_v341_v340_no_p0_point_agreement_ensemble_v340_agree2_b24__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 24,
+        "path": "v341_no_p0_point_pack/submission_v341_v340_no_p0_point_agreement_ensemble_v340_agree2_b36__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 18,
+        "path": "v341_no_p0_point_pack/submission_v341_v340_no_p0_point_agreement_ensemble_v340_agree2_depth_preserve_b24__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 18,
+        "path": "v341_no_p0_point_pack/submission_v341_v340_no_p0_point_agreement_ensemble_v340_agree2_longside_only_b24__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 36,
+        "path": "v341_no_p0_point_pack/submission_v341_v340_no_p0_point_agreement_ensemble_v340_agree3_all__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 12,
+        "path": "v345_nonpoint0_utility_optimizer/submission_v345_nonp0_util_b12__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 6,
+        "path": "v345_nonpoint0_utility_optimizer/submission_v345_nonp0_util_b18__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 0,
+        "path": "v345_nonpoint0_utility_optimizer/submission_v345_nonp0_util_b24__v173action_v300server.csv"
+      },
+      {
+        "changed_vs_v338": 12,
+        "path": "v345_nonpoint0_utility_optimizer/submission_v345_nonp0_util_b36__v173action_v300server.csv"
+      }
+    ],
+    "skipped": [],
+    "vote_rows": 1033
+  },
+  "version": "V362"
+}

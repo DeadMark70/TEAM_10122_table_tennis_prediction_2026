@@ -1,0 +1,95 @@
+{
+  "version": "V411",
+  "external_root": "C:\\aicup\\tennis_final\\external_data",
+  "file_count": 1911,
+  "allowed_first_version_file_count": 1905,
+  "sources": [
+    {
+      "source_dataset": "AIMY",
+      "license_tag": "DL-DE-BY-2-0",
+      "risk_tier": "clean_physics",
+      "allowed_first_version": true,
+      "file_count": 103,
+      "total_bytes": 241176880,
+      "rows_known": 0.0
+    },
+    {
+      "source_dataset": "CoachAI-Projects-main",
+      "license_tag": "MIT_repo_citation_required",
+      "risk_tier": "clean_cross_sport_coarse",
+      "allowed_first_version": true,
+      "file_count": 770,
+      "total_bytes": 96209096,
+      "rows_known": 546339.0
+    },
+    {
+      "source_dataset": "DeepMindrobottabletennis",
+      "license_tag": "CC-BY-4.0-data_Apache-2.0-code",
+      "risk_tier": "clean_physics",
+      "allowed_first_version": true,
+      "file_count": 10,
+      "total_bytes": 21195615,
+      "rows_known": 15792.0
+    },
+    {
+      "source_dataset": "TT-MatchDynamics",
+      "license_tag": "unknown_audit_only",
+      "risk_tier": "audit_only_unknown",
+      "allowed_first_version": false,
+      "file_count": 1,
+      "total_bytes": 50941,
+      "rows_known": 1500.0
+    },
+    {
+      "source_dataset": "TT3D",
+      "license_tag": "CC-BY-4.0",
+      "risk_tier": "clean_physics",
+      "allowed_first_version": true,
+      "file_count": 977,
+      "total_bytes": 2812237,
+      "rows_known": 26617.0
+    },
+    {
+      "source_dataset": "TTMATCH",
+      "license_tag": "excluded_overlap_risk",
+      "risk_tier": "excluded_overlap_risk",
+      "allowed_first_version": false,
+      "file_count": 3,
+      "total_bytes": 4167955,
+      "rows_known": 86108.0
+    },
+    {
+      "source_dataset": "openttgames",
+      "license_tag": "CC-BY-NC-SA-4.0",
+      "risk_tier": "clean_nc_sa",
+      "allowed_first_version": true,
+      "file_count": 42,
+      "total_bytes": 2462532,
+      "rows_known": 63685.0
+    },
+    {
+      "source_dataset": "sonytabletennis",
+      "license_tag": "CC-BY-NC-ND-4.0_audit_only",
+      "risk_tier": "audit_only_nd",
+      "allowed_first_version": false,
+      "file_count": 2,
+      "total_bytes": 670303,
+      "rows_known": 4024.0
+    },
+    {
+      "source_dataset": "spindoe",
+      "license_tag": "CC-BY-SA-4.0",
+      "risk_tier": "clean_physics_sa",
+      "allowed_first_version": true,
+      "file_count": 3,
+      "total_bytes": 188278,
+      "rows_known": 0.0
+    }
+  ],
+  "outputs": {
+    "manifest": "C:\\aicup\\tennis_final\\v411_external_inventory_lockfile\\external_file_manifest.csv",
+    "dataset_summary": "C:\\aicup\\tennis_final\\v411_external_inventory_lockfile\\dataset_summary.csv",
+    "license_summary": "C:\\aicup\\tennis_final\\v411_external_inventory_lockfile\\license_summary.csv",
+    "search_report": "C:\\aicup\\tennis_final\\v411_external_inventory_lockfile\\search_report.json"
+  }
+}

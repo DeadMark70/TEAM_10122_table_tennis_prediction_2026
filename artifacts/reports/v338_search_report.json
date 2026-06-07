@@ -1,0 +1,28 @@
+{
+  "component_status": {
+    "v336_decision": "DO_NOT_UPLOAD",
+    "v336_passing_submissions": 0,
+    "v336_report": "ok",
+    "v337_decision": "HAS_EXPORT",
+    "v337_passing_submissions": 1,
+    "v337_report": "ok"
+  },
+  "decision": "POINT_ONLY",
+  "generated_submission_count": 1,
+  "generated_submissions": [
+    {
+      "candidate": "point_moe_no_p0_add_b24",
+      "kind": "point_only",
+      "path": "v338_joint_moe_pack/submission_v338_point_only_point_moe_no_p0_add_b24__v173action_v300server.csv"
+    }
+  ],
+  "joint_summary": "v338_joint_moe_pack/joint_summary.csv",
+  "policy": {
+    "manual_row_edits": false,
+    "no_old_server": true,
+    "no_ttmatch": true,
+    "no_upload_directory_writes": true,
+    "server_preserved": true
+  },
+  "version": "V338"
+}

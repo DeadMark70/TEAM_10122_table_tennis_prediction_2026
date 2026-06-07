@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/raw/
+external_data/
+*.pkl
+*.pt
+*.pth
+*.npy
+outputs/

@@ -1,0 +1,25 @@
+{
+  "base_rows": 249214,
+  "base_source": "v413",
+  "clean_policy": "TT-MatchDynamics included only with local Apache-2.0 evidence; Sony/TTMATCH excluded.",
+  "expanded_rows": 250714,
+  "forbidden_columns_present": [],
+  "source_counts": {
+    "CoachAI-Projects-main": 138390,
+    "DeepMindrobottabletennis": 15792,
+    "TT-MatchDynamics": 1500,
+    "TT3D": 26617,
+    "openttgames": 52993,
+    "spindoe": 15422
+  },
+  "ttmatchdynamics": {
+    "files": 1,
+    "rows": 1500,
+    "source_dataset": "TT-MatchDynamics",
+    "tier": "clean_candidate",
+    "train_allowed_by_default": true,
+    "trainable_rows": 1500
+  },
+  "v413_base_rows": 249214,
+  "v414_base_rows": 249214
+}

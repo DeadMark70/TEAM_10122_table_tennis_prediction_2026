@@ -1,0 +1,10 @@
+license_tag,risk_tier,allowed_first_version,file_count,total_bytes
+CC-BY-4.0,clean_physics,True,977,2812237
+CC-BY-4.0-data_Apache-2.0-code,clean_physics,True,10,21195615
+CC-BY-NC-ND-4.0_audit_only,audit_only_nd,False,2,670303
+CC-BY-NC-SA-4.0,clean_nc_sa,True,42,2462532
+CC-BY-SA-4.0,clean_physics_sa,True,3,188278
+DL-DE-BY-2-0,clean_physics,True,103,241176880
+MIT_repo_citation_required,clean_cross_sport_coarse,True,770,96209096
+excluded_overlap_risk,excluded_overlap_risk,False,3,4167955
+unknown_audit_only,audit_only_unknown,False,1,50941

@@ -1,0 +1,13 @@
+source,phase,next_family,rows
+coachai_track2_train,fourth_ball,defensive,1010
+coachai_track2_train,fourth_ball,control,674
+coachai_track2_train,fourth_ball,attack,584
+coachai_track2_train,rally,defensive,9654
+coachai_track2_train,rally,control,6512
+coachai_track2_train,rally,attack,4934
+coachai_track2_train,receive,control,994
+coachai_track2_train,receive,defensive,682
+coachai_track2_train,receive,attack,592
+coachai_track2_train,third_ball,defensive,1026
+coachai_track2_train,third_ball,control,727
+coachai_track2_train,third_ball,attack,515

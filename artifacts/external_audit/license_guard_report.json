@@ -1,0 +1,27 @@
+{
+  "version": "V413",
+  "input_rows": 249214,
+  "clean_rows": 249214,
+  "blocked_rows": 0,
+  "blocked_sources": [],
+  "allowed_sources": [
+    "CoachAI-Projects-main",
+    "DeepMindrobottabletennis",
+    "TT3D",
+    "openttgames",
+    "spindoe"
+  ],
+  "warnings": [
+    "report_required_share_alike_or_nc",
+    "aicup_like_schema_sources_blocked"
+  ],
+  "schema_blocked_sources": [
+    "TTMATCH"
+  ],
+  "outputs": {
+    "canonical_clean_events": "C:\\aicup\\tennis_final\\v413_external_license_overlap_guard\\canonical_clean_events.csv",
+    "blocked_sources": "C:\\aicup\\tennis_final\\v413_external_license_overlap_guard\\blocked_sources.csv",
+    "allowed_sources": "C:\\aicup\\tennis_final\\v413_external_license_overlap_guard\\allowed_sources.csv",
+    "license_guard_report": "C:\\aicup\\tennis_final\\v413_external_license_overlap_guard\\license_guard_report.json"
+  }
+}

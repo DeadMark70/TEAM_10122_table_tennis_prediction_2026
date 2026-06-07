@@ -1,0 +1,25 @@
+{
+  "anchor_path": "upload_candidates_20260519\\submission_v261_cap0p01__v173action_r121server.csv",
+  "created_at_utc": "2026-05-29T12:42:15.146602+00:00",
+  "generated_candidates": [
+    "submission_v300_rankavg_w0p005__v173action_v261point_server.csv",
+    "submission_v300_rankavg_w0p01__v173action_v261point_server.csv",
+    "submission_v300_rankavg_w0p02__v173action_v261point_server.csv",
+    "submission_v300_mean_w0p005__v173action_v261point_server.csv",
+    "submission_v300_mean_w0p01__v173action_v261point_server.csv",
+    "submission_v300_mean_w0p02__v173action_v261point_server.csv",
+    "submission_v300_best_safe_repack__v173action_v261point_server.csv"
+  ],
+  "outdir": "v300_clean_server_blend_recycler",
+  "policy": {
+    "clean_only": true,
+    "no_old_server": true,
+    "no_ttmatch": true,
+    "no_upload_copy": true,
+    "server_only": true
+  },
+  "raw_source_rows": 13,
+  "report_md_path": "v300_clean_server_blend_recycler\\v300_report.md",
+  "search_path": "v300_clean_server_blend_recycler\\v300_server_search.csv",
+  "unique_server_sources": 11
+}

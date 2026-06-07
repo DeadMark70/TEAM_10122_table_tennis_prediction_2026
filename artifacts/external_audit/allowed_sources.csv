@@ -1,0 +1,6 @@
+source_dataset,license_tag,risk_tier
+CoachAI-Projects-main,MIT_repo_citation_required,clean_cross_sport_coarse
+DeepMindrobottabletennis,CC-BY-4.0-data_Apache-2.0-code,clean_physics
+TT3D,CC-BY-4.0,clean_physics
+openttgames,CC-BY-NC-SA-4.0,clean_nc_sa
+spindoe,CC-BY-SA-4.0,clean_physics_sa

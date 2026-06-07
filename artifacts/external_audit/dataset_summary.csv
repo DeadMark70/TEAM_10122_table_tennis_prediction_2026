@@ -1,0 +1,10 @@
+source_dataset,license_tag,risk_tier,allowed_first_version,file_count,total_bytes,rows_known
+AIMY,DL-DE-BY-2-0,clean_physics,True,103,241176880,0.0
+CoachAI-Projects-main,MIT_repo_citation_required,clean_cross_sport_coarse,True,770,96209096,546339.0
+DeepMindrobottabletennis,CC-BY-4.0-data_Apache-2.0-code,clean_physics,True,10,21195615,15792.0
+TT-MatchDynamics,unknown_audit_only,audit_only_unknown,False,1,50941,1500.0
+TT3D,CC-BY-4.0,clean_physics,True,977,2812237,26617.0
+TTMATCH,excluded_overlap_risk,excluded_overlap_risk,False,3,4167955,86108.0
+openttgames,CC-BY-NC-SA-4.0,clean_nc_sa,True,42,2462532,63685.0
+sonytabletennis,CC-BY-NC-ND-4.0_audit_only,audit_only_nd,False,2,670303,4024.0
+spindoe,CC-BY-SA-4.0,clean_physics_sa,True,3,188278,0.0
