@@ -1,5 +1,7 @@
 # AI CUP 2026 Spring Table Tennis Prediction Final Code
 
+GitHub: https://github.com/DeadMark70/TEAM_10122_table_tennis_prediction_2026
+
 This repository contains the final clean pipeline used for the submission:
 
 `submission_v362_depth_agree_only__v173action_v300server.csv`
@@ -30,6 +32,7 @@ python -m pytest tests -q -p no:cacheprovider
 ```
 
 `scripts/reproduce_final.py` verifies the final submission schema and copies it to `outputs/final_submission.csv`.
+It is a release-artifact verification script, not a one-command full retraining pipeline.
 
 ## Data placement for retraining
 
