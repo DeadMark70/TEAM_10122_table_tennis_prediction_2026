@@ -1,0 +1,15 @@
+component: server_v300
+description: V300 clean conservative server blend.
+entrypoint: scripts/train_server_model.py
+source_script: src/project_root/analysis_v300_clean_server_blend_recycler.py
+required_official_data:
+  - data/raw/train.csv
+  - data/raw/test_new.csv
+  - data/raw/sample_submission.csv
+outputs:
+  - v300_clean_server_blend_recycler/v300_report.json
+  - v300_clean_server_blend_recycler/v300_server_search.csv
+  - v300_clean_server_blend_recycler/submission_*.csv
+notes:
+  - Clean server branch excludes old-test server labels and TTMATCH-style row alignment.
+  - Server probabilities remain in [0, 1] and are blended conservatively.

@@ -1,0 +1,21 @@
+component: action_teacher_v173
+description: V173 external curriculum action teacher.
+entrypoint: scripts/train_action_teacher.py
+source_script: src/project_root/analysis_v173_external_curriculum_pretrain.py
+required_official_data:
+  - data/raw/train.csv
+  - data/raw/test_new.csv
+  - data/raw/sample_submission.csv
+optional_external_data:
+  - external_data/OpenTTGames
+  - external_data/CoachAI-Projects-main
+  - external_data/TT-MatchDynamics
+  - external_data/TT3D
+  - external_data/SpinDOE
+outputs:
+  - v173_external_curriculum_pretrain/v173_report.json
+  - v173_external_curriculum_pretrain/v173_action_curriculum_search.csv
+  - v173_external_curriculum_pretrain/submission_*.csv
+notes:
+  - External sources are converted into coarse priors/family or physics features, not direct AICUP exact labels.
+  - No old-test server labels and no manual row edits are used in the clean action branch.

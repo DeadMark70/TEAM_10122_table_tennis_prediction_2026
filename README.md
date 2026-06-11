@@ -28,13 +28,13 @@ python -m pip install -r requirements.txt
 
 ```powershell
 python scripts/reproduce_final.py
-python -m pytest tests -q -p no:cacheprovider
+python scripts/run_release_checks.py
 ```
 
 `scripts/reproduce_final.py` verifies the final submission schema and copies it to `outputs/final_submission.csv`.
 It is a release-artifact verification script, not a one-command full retraining pipeline.
 
-## Data placement for retraining
+## Component-level training
 
 Official competition files are not redistributed. To retrain, place:
 
@@ -44,8 +44,37 @@ data/raw/test_new.csv
 data/raw/sample_submission.csv
 ```
 
+Then run the documented component wrappers:
+
+```powershell
+python scripts/train_action_teacher.py
+python scripts/train_server_model.py
+python scripts/train_point_residual.py
+```
+
+or the documented sequence:
+
+```powershell
+python scripts/train_full_pipeline.py
+```
+
+For dependency/command inspection without running training:
+
+```powershell
+python scripts/train_full_pipeline.py --dry-run
+```
+
+Teacher and artifact provenance is documented in:
+
+```text
+docs/artifact_provenance.md
+docs/full_training_reproduction.md
+docs/model_components.md
+```
+
 Reference old test data was used only for diagnostic analysis and not for the final clean submission.
 
 ## External resources
 
 External datasets are documented in `docs/external_resources.md` and audited under `artifacts/external_audit/`.
+For closest component-level reproduction of the V173 action teacher, place external resources under `external_data/`.
