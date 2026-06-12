@@ -1,0 +1,74 @@
+external_sources:
+  openttgames:
+    display_name: Extended OpenTTGames / OpenTTGames
+    source_url: https://arxiv.org/abs/2512.19327
+    local_path: external_data/openttgames
+    license: CC BY-NC-SA 4.0
+    redistribution_in_repo: false
+    final_clean_usage: coarse action-family, terminal, phase, and transition priors
+    exact_label_mapping_to_aicup: false
+    notes: Raw data is not redistributed. Download from the original project/paper source and place under local_path.
+  coachai_projects:
+    display_name: CoachAI Projects / ShuttleSet
+    source_url: https://github.com/wywyWang/CoachAI-Projects
+    local_path: external_data/CoachAI-Projects-main
+    license: MIT repository license; dataset citations required by project documentation
+    redistribution_in_repo: false
+    final_clean_usage: cross-sport sequence concepts and coarse shot-family/landing priors
+    exact_label_mapping_to_aicup: false
+    notes: Used only as coarse badminton sequence prior; no direct AICUP actionId mapping.
+  deepmind_robot_table_tennis:
+    display_name: DeepMind / Google robot table tennis ball states
+    source_url: https://arxiv.org/abs/2408.03906
+    local_path: external_data/DeepMindrobottabletennis
+    license: Apache 2.0 software; CC BY 4.0 materials
+    redistribution_in_repo: false
+    final_clean_usage: ball-state physics, speed, spin, and landing priors
+    exact_label_mapping_to_aicup: false
+    notes: Source README cites Apache 2.0 for code and CC BY 4.0 for other materials.
+  tt3d:
+    display_name: TT3D Table Tennis 3D Reconstruction
+    source_url: https://arxiv.org/abs/2504.10035
+    auxiliary_url: https://cloud.cs.uni-tuebingen.de/index.php/s/SCKq85JZEmKoC6J
+    local_path: external_data/TT3D
+    license: CC BY 4.0
+    redistribution_in_repo: false
+    final_clean_usage: trajectory, depth, and physical auxiliary priors
+    exact_label_mapping_to_aicup: false
+    notes: Raw videos/data are referenced by the source project and not redistributed here.
+  spindoe:
+    display_name: SpinDOE
+    source_url: https://arxiv.org/abs/2303.03879
+    local_path: external_data/spindoe
+    license: CC BY-SA 4.0
+    redistribution_in_repo: false
+    final_clean_usage: spin and trajectory auxiliary reference
+    exact_label_mapping_to_aicup: false
+    notes: Used only for physics-style auxiliary priors where local audit allowed.
+  tt_matchdynamics:
+    display_name: TT-MatchDynamics
+    source_url: https://www.kaggle.com/datasets/guangliangyang/tt-matchdynamics
+    local_path: external_data/TT-MatchDynamics
+    license: Apache 2.0 metadata on Kaggle
+    redistribution_in_repo: false
+    final_clean_usage: clean external sequence/coarse reference only
+    exact_label_mapping_to_aicup: false
+    notes: No test_new row-wise alignment, no manual label alignment, and no final row-wise post-processing.
+  aimy:
+    display_name: AIMY table-tennis launcher data
+    source_url: https://arxiv.org/abs/2210.06048
+    local_path: external_data/AIMY
+    license: DL-DE/BY-2.0 as recorded in local audit
+    redistribution_in_repo: false
+    final_clean_usage: inventory and license audit only
+    exact_label_mapping_to_aicup: false
+    notes: Did not enter the final clean canonical corpus due to local conversion conditions.
+  sony_table_tennis:
+    display_name: Sony autonomous robot table-tennis dataset
+    source_url: local source README / original publication source
+    local_path: external_data/sonytabletennis
+    license: CC BY-NC-ND 4.0
+    redistribution_in_repo: false
+    final_clean_usage: audit-only diagnostic reference
+    exact_label_mapping_to_aicup: false
+    notes: Not used in final clean training because NC/ND licensing and conversion risk were treated conservatively.
